@@ -1,0 +1,52 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	background-color: #283018;
+	font-family: Arial, sans-serif;
+}
+#wrapper {
+	width: 80%;
+	margin: 0 auto;
+	padding: 0;
+	min-width: 700px;
+	max-width: 1024px;
+	box-shadow: 10px 10px 5px #888888;
+	background-color: #aa863a;
+}
+#rightcol {
+	background-color: #729f98;	
+}
+header {
+	text-align: center;
+}
+nav {
+	float: left;
+	font-weight: bold;
+	width: 300px;
+	letter-spacing: 0.09em;
+	color: #f0eceb;
+}
+ul {
+	list-style: none;	
+}
+nav ul li a {
+	color: #f0eceb;
+	text-decoration: none;
+	line-height: 140%;
+	display: block;
+}
+nav a:hover {
+	background-color: #a9a8;
+}
+h2 {
+	padding-left: 20px;
+	text-decoration: underline;
+}
+main {
+	margin: 0 0 0 300px;
+	overflow: auto;
+	background-color: #f0eceb;
+}
+main p {
+	padding: 10px;
+}
